@@ -13,7 +13,7 @@ A comprehensive job portal application that allows users to search for jobs, app
 Before setting up the project, ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (version 16 or higher)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-- [MongoDB](https://www.mongodb.com/) (if using MongoDB as the database)
+
 
 ## Setup Instructions
 1. Clone the repository:
@@ -50,7 +50,7 @@ Before setting up the project, ensure you have the following installed:
 
          This will load the job portal application.
 
-         ## Usage Instructions
+## Usage Instructions
 
          1. **Start the Application**:
             - Ensure both the frontend and backend servers are running as per the setup instructions.
