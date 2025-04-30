@@ -37,7 +37,7 @@ Before setting up the project, ensure you have the following installed:
       ```bash
       cd backend
       npm install
-      npm start
+      npm run dev
       ```
 
 3. Access the application:
