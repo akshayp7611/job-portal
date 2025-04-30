@@ -18,7 +18,7 @@ Before setting up the project, ensure you have the following installed:
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/job-portal.git
+   git clone https://github.com/akshayp7611/job-portal/
    cd job-portal
    
 
