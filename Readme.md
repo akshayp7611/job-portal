@@ -58,3 +58,8 @@ Before setting up the project, ensure you have the following installed:
          - **JWT**: For user authentication
          - **React**: Frontend library for building user interfaces
          - **Tailwind CSS**: Utility-first CSS framework
+
+
+         
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
