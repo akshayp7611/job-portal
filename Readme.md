@@ -59,13 +59,13 @@ Before setting up the project, ensure you have the following installed:
    2. **Login Using Test Accounts**:
             - Use the following test accounts to explore the application:
 
-              **Recruiter Account**:
-              - Email: `test@recruiter.com`
-              - Password: `test123`
+         **Recruiter Account**:
+           - Email: `test@recruiter.com`
+           - Password: `test123`
 
-              **User Account**:
-              - Email: `test@student.com`
-              - Password: `test123`
+         **User Account**:
+           - Email: `test@student.com`
+           - Password: `test123`
 
    3. **Explore Features**:
             - As an admin, you can manage job postings, view applications, and oversee user activity.
@@ -78,13 +78,14 @@ Before setting up the project, ensure you have the following installed:
          
 
 ## Dependencies
-         Below are the key dependencies used in this project:
+   
+   Below are the key dependencies used in this project:
 
-         - **Express**: Web framework for Node.js
-         - **Mongoose**: MongoDB object modeling tool
-         - **JWT**: For user authentication
-         - **React**: Frontend library for building user interfaces
-         - **Tailwind CSS**: Utility-first CSS framework
+   - **Express**: Web framework for Node.js
+   - **Mongoose**: MongoDB object modeling tool
+   - **JWT**: For user authentication
+   - **React**: Frontend library for building user interfaces
+   - **Tailwind CSS**: Utility-first CSS framework
 
 
          
