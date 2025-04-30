@@ -12,7 +12,7 @@ A comprehensive job portal application that allows users to search for jobs, app
 ## Prerequisites
 Before setting up the project, ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (version 16 or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/)
 
 
 ## Setup Instructions
@@ -52,11 +52,11 @@ Before setting up the project, ensure you have the following installed:
 
 ## Usage Instructions
 
-         1. **Start the Application**:
+   1. **Start the Application**:
             - Ensure both the frontend and backend servers are running as per the setup instructions.
             - Open your browser and navigate to `http://localhost:5173`.
 
-         2. **Login Using Test Accounts**:
+   2. **Login Using Test Accounts**:
             - Use the following test accounts to explore the application:
 
               **Recruiter Account**:
@@ -67,11 +67,11 @@ Before setting up the project, ensure you have the following installed:
               - Email: `test@student.com`
               - Password: `test123`
 
-         3. **Explore Features**:
+   3. **Explore Features**:
             - As an admin, you can manage job postings, view applications, and oversee user activity.
             - As a user, you can search for jobs, apply for positions, and manage your applications.
 
-         4. **Stop the Application**:
+   4. **Stop the Application**:
             - To stop the servers, press `Ctrl + C` in both terminal windows.
 
 
