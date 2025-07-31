@@ -7,6 +7,7 @@ import userRoute from "./routes/user.route.js";
 import companyRoute from "./routes/company.route.js";
 import jobRoute from "./routes/job.route.js";
 import applicationRoute from "./routes/application.route.js";
+import serverless from "serverless-http"; // ✅ Important
 
 dotenv.config({});
 
@@ -47,3 +48,4 @@ app.get("/", (req, res) => {
   
 //   console.log(`server running at port ${PORT}`);
 // });
+export const handler = serverless(app);
