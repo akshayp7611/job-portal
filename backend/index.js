@@ -38,10 +38,7 @@ app.use("/api/v1/company", companyRoute);
 app.use("/api/v1/job", jobRoute);
 app.use("/api/v1/application", applicationRoute);
 app.get("/", (req, res) => {
-  return res.status(200).json({
-    message: "I am coming from backend",
-    success: true,
-  });
+  res.send("Welcome to Job Portal API");
 });
 
 // app.listen(PORT, () => {
