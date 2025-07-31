@@ -30,6 +30,7 @@ app.use(cors( {origin: 'http://localhost:5173',
     credentials: true}));
  const PORT = process.env.PORT|| 3000;
 
+ connectDB();
 //api's
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/company", companyRoute);
@@ -42,7 +43,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  connectDB();
-  console.log(`server running at port ${PORT}`);
-});
+// app.listen(PORT, () => {
+  
+//   console.log(`server running at port ${PORT}`);
+// });
