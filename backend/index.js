@@ -48,4 +48,5 @@ app.get("/", (req, res) => {
   
 //   console.log(`server running at port ${PORT}`);
 // });
-export const handler = serverless(app);
+const handler = serverless(app);
+export default handler;
