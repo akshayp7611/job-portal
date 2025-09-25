@@ -36,6 +36,9 @@ app.use(async (req, res, next) => {
 });
 
 // Routes
+app.get("/",(req,res)=>{
+res.send("Api working........");
+})
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/company", companyRoute);
 app.use("/api/v1/job", jobRoute);
