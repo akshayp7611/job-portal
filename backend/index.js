@@ -44,4 +44,4 @@ app.get("/", (req, res) => {
   res.send("Welcome to Job Portal API");
 });
 
-export const handler = serverless(app);
+export default serverless(app);
